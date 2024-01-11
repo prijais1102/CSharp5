@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NumericFunctions\NumericFunctions.csproj" />
+    <ProjectReference Include="..\StringFunctions\StringFunctions.csproj" />
+  </ItemGroup>
+
 </Project>
